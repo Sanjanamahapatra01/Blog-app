@@ -1,0 +1,87 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family:monospace;
+    background-color: #fcfafa;
+}
+.container{
+    display: flex;
+    font-family:monospace;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #fcfafa;
+}
+.content,.content1{
+    flex:1;
+    border: 1px solid #d3cece; 
+    background-image:url('/editor.png');
+    background-position: 100%;
+    padding: 20px 20px;
+    max-height: 300px ;
+    transition: transform 0.3s;
+}
+.content:hover,.content1:hover{
+    transform: scale(1.05); 
+}
+.text{
+    background-color: #ffff;
+    opacity: 0.6;
+    /* opacity: 0.6; */
+}
+.text h1,.text h1{
+    margin:0 45%;
+    padding-top: 5px;
+}
+.text img,.text img{
+    max-width: 100px;
+    margin: 20px 50px ;
+    margin:0 45%;
+}
+
+
+.images {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2px; 
+}
+.image-item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.image-item:hover {
+    transform: scale(1.05); 
+}
+.image-item img {
+    max-width: 200%;
+    max-height: 100%;
+    object-fit:contain;
+}
+.text-content{
+    text-align: center;
+    padding: 10px;
+    font-size:15px ; 
+    margin-bottom: 15px;
+}
+.button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    background-color:#707175;;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #bfbfc3;
+}

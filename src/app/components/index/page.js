@@ -41,7 +41,7 @@ const Index = () => {
   return (
     <div>
       <header>
-        <h1>My Blogs</h1>
+        <h1>My Blog</h1>
       </header>
       <nav>
     <ul>
